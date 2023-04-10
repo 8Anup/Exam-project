@@ -1,0 +1,193 @@
+body {
+  background-color: aliceblue;
+}
+
+#logo-kafene {
+  width: 170px;
+  margin-top: -20px;
+  margin-left: -50px;
+}
+
+#logo {
+  font-size: 29px;
+  margin-left: -60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.nav {
+  text-decoration: none;
+  margin: 15px;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#sign-in {
+  padding-top: 200px;
+  padding-left: 385px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar {
+  display: flex;
+
+}
+
+#navbar-full {
+  width: 100%;
+  height: 70px;
+  margin-top: -30px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px #ccc;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: auto;
+  height: 80dvh;
+  align-items: center;
+}
+
+#email,
+#password,
+#login {
+  width: 500px;
+  height: 2rem;
+}
+
+#login {
+  width: 200px;
+}
+
+.logout {
+  position: fixed;
+  margin-top: -50px;
+  top: 70px;
+  right: 10px;
+  font-size: 22px;
+  color: black;
+  display: flex;
+  padding: .1rem;
+  cursor: pointer;
+}
+
+#prct {
+  padding-top: 80PX;
+}
+
+#prct3 {
+  padding-top: 80PX;
+}
+
+.detail {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.detail1 {
+  padding-right: 90px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.order-filter {
+  font-size: 30px;
+  padding: 0px 60px 0px 60px;
+  font-weight: 700;
+}
+
+.products,
+.users,
+.orders {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#search {
+  margin: 30px;
+  width: 400px;
+  height: 50px;
+  margin-left: 109px;
+}
+
+.filter {
+  font-size: 30px;
+  padding: 0px 60px 0px 60px;
+  font-weight: 700;
+}
+
+#count {
+  padding: 0px 0px 0px 60px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dtl {
+  margin-left: 60px;
+  font-size: 12px;
+}
+.dt2{
+  margin-left: 60px;
+  font-size: 12px;
+}
+
+.product-list,
+.users-list,
+.order-list {
+  flex-grow: 5;
+  text-align: center;
+  background-color: white;
+}
+
+.product-list-header,
+.order-list-header {
+  display: grid;
+  grid-template-columns: repeat(6, calc(100% / 6));
+  text-align: center;
+  background-color: aliceblue;
+  box-shadow: 0 0px 0.4px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.product_list_main_container,
+.order_list_main_container {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(6, calc(100% / 6));
+  text-align: center;
+}
+
+.users-list-header {
+  display: grid;
+  grid-template-columns: repeat(7, calc(100% / 7));
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.users_list_main_container {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(7, calc(100% / 7));
+  text-align: center;
+}
+
+.product_list_main_container {
+  text-Align: 'center';
+  align-self: flex-start;
+}
